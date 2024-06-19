@@ -3,6 +3,7 @@ app:
 livekit:
   apiKey: devkey
   apiCert: secret
+  host: http://127.0.0.1:7880
 mysql:
   host: 127.0.0.1
   port: 3306
