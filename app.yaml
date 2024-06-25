@@ -1,0 +1,10 @@
+app:
+  version: 1.0
+  host: :8082
+livekit:
+  apiKey: devkey
+  apiCert: secret
+  host: http://127.0.0.1:7880
+mysql:
+  dns:  "root:root@tcp(127.0.0.1:3306)/mspace?charset=utf8mb4&parseTime=True&loc=Local"
+  #dns:  "fdroot:3dbutfly@alirds@tcp(rm-2zehp1p514j6761zobo.mysql.rds.aliyuncs.com:3306)/mspace?charset=utf8mb4&parseTime=True&loc=Local"
