@@ -1,6 +1,6 @@
 app:
   version: 1.0
-  host: :8082
+  host: 192.168.0.22:8080
 livekit:
   apiKey: devkey
   apiCert: secret

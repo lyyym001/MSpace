@@ -18,8 +18,8 @@ WORKDIR /docker_mspace
 COPY . .
 
 VOLUME ["/docker_mspace/app.yaml"]
-#VOLUME ["/docker_mspace/cert/server.pem"]
-#VOLUME ["/docker_mspace/cert/server.key"]
+VOLUME ["/docker_mspace/cert/server.pem"]
+VOLUME ["/docker_mspace/cert/server.key"]
 #COPY internal/conf/app.yaml /internal/conf/app.yaml
 
 #RUN go build -o app ./internal/server/main.go
