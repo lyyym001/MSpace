@@ -2,9 +2,12 @@ app:
   version: 1.0
   host: 192.168.0.22:8080
 livekit:
-  apiKey: devkey
-  apiCert: secret
-  host: http://127.0.0.1:7880
+  #apiKey: devkey
+  #apiCert: secret
+  #host: http://127.0.0.1:7880
+  apiKey: APIJnT9kRDNe4CW
+  apiCert: jL9mHJmCOmCC9DHtUDnFJxBfKTLeLRx2rn0swe5FG2xA
+  host: http://39.106.132.235:7880 #https://space.3dbutfly.com
 mysql:
   dns:  "root:root@tcp(127.0.0.1:3306)/mspace?charset=utf8mb4&parseTime=True&loc=Local"
   #dns:  "fdroot:3dbutfly@alirds@tcp(rm-2zehp1p514j6761zobo.mysql.rds.aliyuncs.com:3306)/mspace?charset=utf8mb4&parseTime=True&loc=Local"
